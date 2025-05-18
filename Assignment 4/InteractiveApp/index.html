@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Interactive App</h1>
+
+  <section>
+    <h2>Form Validation</h2>
+    <form id="registrationForm">
+      <input type="text" id="name" placeholder="Name" />
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <section>
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="showConfirm()">Delete Item</button>
+    <button onclick="showPrompt()">Ask Name</button>
+  </section>
+
+  <section>
+    <h2>Event Handling</h2>
+    <button id="hoverButton">Hover Over Me!</button>
+  </section>
+
+  <script src="js/interactive.js"></script>
+</body>
+</html>

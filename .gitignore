@@ -1,0 +1,21 @@
+# Ignore compiled class files
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configs
+.project
+.classpath
+.settings/
+.idea/
+
+# Ignore target/ if using Maven
+target/
+
+# Ignore VS Code settings
+.vscode/
